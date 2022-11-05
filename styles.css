@@ -1,0 +1,172 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    width: 750px;
+}
+
+img {
+    width: 150px;
+    padding: 10px;
+}
+
+.head1 {
+    background-image: url("images/Town-of-Canmore-Alberta.jpg");
+    background-size: cover;
+    padding: 10px 0 90px 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0 0 1px #000000;
+    
+}
+
+.hide {
+    display: none;
+}
+
+#hdtx1 {
+    text-align: center;
+    background: #904e02;
+    padding: 2px 5px;
+    border-radius: 5px;
+    
+}
+
+#hdtx2 {
+    font-size: 15px;
+    width: 310px;
+    text-align: center;
+    background: #904e02;
+    padding: 2px 5px;
+    border-radius: 5px;
+    
+
+    
+}
+    
+#activities {
+    background-color: #BCF1F0;
+    padding: 2px 0 2px 0;
+       
+}
+
+#act{
+    display: flex;
+    flex-direction: columns;
+    justify-content: space-around;
+    padding: 10px 15px;
+}
+
+.actsub {
+    flex-direction: rows;
+
+}
+
+.img-a {
+    border: 3px solid #000000;    
+    border-radius: 60px;
+    padding: 4px;
+    width: 130px;
+    height: 100px
+}
+
+/*
+#img-a1:hover + #img-at1 {
+    display: flex;   
+}
+
+
+#img-a1 {
+    background-image: url("images/3SistersCanmore.webp");
+}
+
+#img-a1:hover {
+    background-image: url("images/rafting.jpg");
+}
+*/
+
+#img-a1:hover, #img-a2:hover, #img-a3:hover {
+    height: 200px;
+    width: 200px;
+}
+
+#img-a1:hover + #img-at1 {
+    display: flex;   
+    justify-content: center;
+}
+
+#img-a2:hover + #img-at2 {
+    display: flex;   
+    justify-content: center;
+}
+
+#img-a3:hover + #img-at3 {
+    display: flex;   
+    justify-content: center;
+}
+
+
+#spacer {
+    padding: 20px;
+    background-image: url("images/mountain.jpg");
+    background-size: cover;
+}
+
+.card {
+    width: 400px;
+    height: 210px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #2896cc;
+    color: #fec601;
+    text-shadow: -1px 0 #2b2839, 0 1px #2b2839,  1px 0 2b2839, 0 -1px 2b2839;
+    border-radius: 20px;
+    border: 3px solid #4acb2a;
+
+    
+    /*
+    border-top: 6px solid #4acb2a;*/
+
+    
+}
+
+#myface {
+    height: 210px;
+    margin: 0px;
+    border: 3px solid #904e02;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+#crdh {
+    font-size: 20px;
+    padding: 0px;
+
+}
+
+#crdb {
+    font-size: 13px;
+    font-style: italic;
+    padding: 0px 10px;
+}
+
+#crdn {
+    font-size: 15px;
+}
